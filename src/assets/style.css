@@ -1,2 +1,28 @@
-@import "./base.css";
+body{
+    background-color: white;
+}
 
+.wrapper {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background:black;
+    color: #fff;
+}
+
+.cards {
+    width: 18rem;
+    height: 20px;
+    background-color: grey;
+    display: flex;
+    border: black;
+}

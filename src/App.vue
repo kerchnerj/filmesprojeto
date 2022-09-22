@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
+import CardsComp from "@/components/CardsComp.vue";
 </script>
 
 <template>
@@ -7,14 +8,18 @@ import { RouterLink, RouterView } from "vue-router";
     <nav>
       <RouterLink to="/">Categorias</RouterLink>
       <RouterLink to="/filmes">Filmes</RouterLink>
-      <RouterLink to="/series">Séries</RouterLink>
-      <RouterLink to="/animes">Animes</RouterLink>
+      <RouterLink to="/atores">Atores</RouterLink>
       <RouterLink to="/login"> Minha Conta</RouterLink>
     </nav>
     <div class="icon">
       <i class="bx bx-search-alt" style="color: rgba(0, 0, 0, 0.03)"></i>
     </div>
   </header>
+  <CardsComp />
+  <CardsComp />
+  <CardsComp />
+  <CardsComp />
+  <CardsComp />
 
   <RouterView />
 </template>
@@ -30,7 +35,7 @@ body {
 
 header {
   height: 30px;
-  background-color: #03658c;
+  background-color: #0b2029;
   padding: 25px;
 }
 </style>
