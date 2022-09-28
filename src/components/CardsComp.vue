@@ -2,7 +2,7 @@
 export default {};
 </script>
 <template>
-  <div class="cards" style="width: 18rem">
+  <div class="cards" style="width: 100%">
     <img
       class="card-img-top"
       src=".../100px180/?text=Image cap"

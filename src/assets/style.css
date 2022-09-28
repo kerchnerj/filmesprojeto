@@ -20,9 +20,31 @@ body{
 }
 
 .cards {
-    width: 18rem;
-    height: 20px;
-    background-color: grey;
+    width: 19rem;
+    height: 40px;
+    background-color: white;
     display: flex;
-    border: black;
+    border-style: 2px black;
+}
+
+.icon{
+  color: white;
+}
+
+.card-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black ;
+}
+
+.card-img-top{
+    width: 19rem;
+    height: 40px;
+}
+.menu-esquerdo{
+    font-size: 10px;
+    color:white;
+}
+
+.meu-direito{
+
 }

@@ -11,9 +11,6 @@ import CardsComp from "@/components/CardsComp.vue";
       <RouterLink to="/atores">Atores</RouterLink>
       <RouterLink to="/login"> Minha Conta</RouterLink>
     </nav>
-    <div class="icon">
-      <i class="bx bx-search-alt" style="color: rgba(0, 0, 0, 0.03)"></i>
-    </div>
   </header>
   <CardsComp />
   <CardsComp />

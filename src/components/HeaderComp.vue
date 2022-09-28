@@ -22,6 +22,7 @@ export default {};
       </span>
     </div>
     <div class="menu-direito">
+      <div class="icon"> </div>
       <span>Sair</span>
     </div>
   </header>
